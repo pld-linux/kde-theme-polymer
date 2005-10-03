@@ -9,7 +9,7 @@ Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://www.fosk.it/mart/files/%{_name}.tar.bz2
-# Source0-md5:	a151cd6ccba9376fb884d716ff4c4512
+# Source0-md5:	96fe7a1ca6c995b6ddb6768decdf24cb
 URL:		http://www.kde-look.org/content/show.php?content=10919
 BuildRequires:	autoconf
 BuildRequires:	automake
