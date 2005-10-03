@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	kde-style-thin_keramik
 
 %description 
-polymer is a KDE style aimed to be a good balance between eyecandy and simplicity.
+polymer is a KDE based on Keramik.
 
 %description -l pl
 polymer to styl KDE oparty na Keramiku.
@@ -60,16 +60,14 @@ Group:		Themes
 Requires:	kdelibs
 
 %description -n kde-colorscheme-%{_name}
-Color schemes for KDE style - polymer. One of them
-has a subdued green look and the second is an interesting
-yet a little eccentric green/orange/blue mix.
-
+Color schemes for KDE style - polymer. One of them has a subdued green
+look and the second is an interesting yet a little eccentric
+green/orange/blue mix.
 
 %description -n kde-colorscheme-%{_name} -l pl
-Schematy kolorów do stylu KDE - polymer. Jeden z nich
-ma stonowany, zielony wygl±d; a drugi jest interesuj±cym,
-acz trochê ekstrawaganckim po³±czeniem kolorów: 
-zielonego, pomarañczowego i niebieskiego.
+Schematy kolorów do stylu KDE - polymer. Jeden z nich ma stonowany,
+zielony wygl±d; drugi jest interesuj±cym, acz trochê ekstrawaganckim
+po³±czeniem kolorów: zielonego, pomarañczowego i niebieskiego.
 
 %package -n kde-decoration-%{_name}
 Summary:	Kwin decoration - polymer
