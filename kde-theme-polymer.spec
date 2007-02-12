@@ -2,7 +2,7 @@
 %define		_name	polymer
 
 Summary:	KDE style - polymer
-Summary(pl):	Styl do KDE - polymer
+Summary(pl.UTF-8):   Styl do KDE - polymer
 Name:		kde-theme-%{_name}
 Version:	0.4
 Release:	2
@@ -23,12 +23,12 @@ Obsoletes:	kde-style-thin_keramik
 %description 
 polymer is a KDE based on Keramik.
 
-%description -l pl
+%description -l pl.UTF-8
 polymer to styl KDE oparty na Keramiku.
 
 %package -n kde-style-%{_name}
 Summary:	KDE style - %{_name}
-Summary(pl):	Styl do KDE - %{_name}
+Summary(pl.UTF-8):   Styl do KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
@@ -43,19 +43,19 @@ polymer is modified from keramik as follows:
 - Active tab effect.
 - Striped menu.
 
-%description -n kde-style-%{_name} -l pl
-polymer to zmodyfikowany keramik z nastêpuj±cymi zmianami:
-- P³askie paski menu i narzêdzi
-- Inny kolor suwaka - nieaktywnego t³a
+%description -n kde-style-%{_name} -l pl.UTF-8
+polymer to zmodyfikowany keramik z nastÄ™pujÄ…cymi zmianami:
+- PÅ‚askie paski menu i narzÄ™dzi
+- Inny kolor suwaka - nieaktywnego tÅ‚a
 - Cienkie przyciski i suwak
 - Efekt dla zaznaczonej i aktywnej pozycji w pasku menu
-- Ikonki na zak³adkach
-- Efekt aktywnej zak³adki
+- Ikonki na zakÅ‚adkach
+- Efekt aktywnej zakÅ‚adki
 - Paskowane menu
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - polymer
-Summary(pl):	Schemat kolorów do stylu KDE - polymer
+Summary(pl.UTF-8):   Schemat kolorÃ³w do stylu KDE - polymer
 Group:		Themes
 Requires:	kdelibs
 
@@ -64,14 +64,14 @@ Color schemes for KDE style - polymer. One of them has a subdued green
 look and the second is an interesting yet a little eccentric
 green/orange/blue mix.
 
-%description -n kde-colorscheme-%{_name} -l pl
-Schematy kolorów do stylu KDE - polymer. Jeden z nich ma stonowany,
-zielony wygl±d; drugi jest interesuj±cym, acz trochê ekstrawaganckim
-po³±czeniem kolorów: zielonego, pomarañczowego i niebieskiego.
+%description -n kde-colorscheme-%{_name} -l pl.UTF-8
+Schematy kolorÃ³w do stylu KDE - polymer. Jeden z nich ma stonowany,
+zielony wyglÄ…d; drugi jest interesujÄ…cym, acz trochÄ™ ekstrawaganckim
+poÅ‚Ä…czeniem kolorÃ³w: zielonego, pomaraÅ„czowego i niebieskiego.
 
 %package -n kde-decoration-%{_name}
 Summary:	Kwin decoration - polymer
-Summary(pl):	Dekoracja kwin - polymer
+Summary(pl.UTF-8):   Dekoracja kwin - polymer
 Group:		Themes
 Requires:	kdebase-desktop
 
@@ -81,11 +81,11 @@ It is similar to the keramik decoration, it differs by:
 - having flattened buttons
 - extended customizability (like the buttons' shape)
 
-%description -n kde-decoration-%{_name} -l pl
-Dekoracja okien, która pasuje do stylu KDE - polymera.
-Jest podobna do dekoracji keramika z wyj±tkiem:
-- sp³aszczonych przycisków
-- zwiêkszonej dostosowywalno¶ci (np. kszta³tu przycisków)
+%description -n kde-decoration-%{_name} -l pl.UTF-8
+Dekoracja okien, ktÃ³ra pasuje do stylu KDE - polymera.
+Jest podobna do dekoracji keramika z wyjÄ…tkiem:
+- spÅ‚aszczonych przyciskÃ³w
+- zwiÄ™kszonej dostosowywalnoÅ›ci (np. ksztaÅ‚tu przyciskÃ³w)
 
 %prep
 %setup -q -n %{_name}
