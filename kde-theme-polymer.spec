@@ -2,7 +2,7 @@
 %define		_name	polymer
 
 Summary:	KDE style - polymer
-Summary(pl.UTF-8):   Styl do KDE - polymer
+Summary(pl.UTF-8):	Styl do KDE - polymer
 Name:		kde-theme-%{_name}
 Version:	0.4
 Release:	2
@@ -28,7 +28,7 @@ polymer to styl KDE oparty na Keramiku.
 
 %package -n kde-style-%{_name}
 Summary:	KDE style - %{_name}
-Summary(pl.UTF-8):   Styl do KDE - %{_name}
+Summary(pl.UTF-8):	Styl do KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
@@ -55,7 +55,7 @@ polymer to zmodyfikowany keramik z następującymi zmianami:
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - polymer
-Summary(pl.UTF-8):   Schemat kolorów do stylu KDE - polymer
+Summary(pl.UTF-8):	Schemat kolorów do stylu KDE - polymer
 Group:		Themes
 Requires:	kdelibs
 
@@ -71,7 +71,7 @@ połączeniem kolorów: zielonego, pomarańczowego i niebieskiego.
 
 %package -n kde-decoration-%{_name}
 Summary:	Kwin decoration - polymer
-Summary(pl.UTF-8):   Dekoracja kwin - polymer
+Summary(pl.UTF-8):	Dekoracja kwin - polymer
 Group:		Themes
 Requires:	kdebase-desktop
 
