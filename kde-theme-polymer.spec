@@ -98,15 +98,15 @@ cp -f /usr/share/automake/config.sub admin
 	--with-qt-libraries=%{_libdir}
 %{__make}
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	kde_htmldir="%{_kdedocdir}"
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files -n kde-style-%{_name}
 %defattr(644,root,root,755)
